@@ -1,0 +1,257 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.w-layout-hflex {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.w-layout-vflex {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.section {
+  background-color: #131518;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 800px;
+  display: flex;
+}
+
+.container {
+  background-color: #232a34;
+  border-radius: 30px;
+  max-width: 412px;
+  height: 416px;
+  padding: 40px;
+}
+
+.heading {
+  color: #fff;
+  max-width: 201px;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.paragraph {
+  color: #969fad;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.body {
+  font-family: Overpass, sans-serif;
+}
+
+.div-block {
+  background-color: #232e38;
+  border: 0 solid #fff;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+}
+
+.div-block:hover {
+  background-color: #fc7614;
+}
+
+.rating-button-1 {
+  color: #fff;
+  background-color: #262e38;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.rating-button-1:hover {
+  background-color: #fc7614;
+}
+
+.flex-block {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-bottom: 32px;
+}
+
+.rating-button-2 {
+  color: #fff;
+  background-color: #262e38;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.rating-button-2:hover {
+  background-color: #fc7614;
+}
+
+.rating-button-3 {
+  color: #fff;
+  background-color: #262e38;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.rating-button-3:hover {
+  background-color: #fc7614;
+}
+
+.rating-button-4 {
+  color: #262e38;
+  background-color: #fff;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.rating-button-5 {
+  color: #fff;
+  background-color: #262e38;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.rating-button-5:hover {
+  background-color: #fc7614;
+}
+
+.button {
+  background-color: #fc7614;
+  border-radius: 22.5px;
+}
+
+.button-2 {
+  color: #131518;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fc7614;
+  border-radius: 22.5px;
+  padding: 15px 137px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.button-2:hover {
+  background-color: #fff;
+}
+
+.section-2 {
+  background-color: #131518;
+  max-width: 1440px;
+  height: 800px;
+  padding-top: 195px;
+  padding-bottom: 189px;
+}
+
+.container-2 {
+  background-color: #232a34;
+  border-radius: 30px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 412px;
+  height: 416px;
+  display: flex;
+}
+
+.image {
+  text-align: left;
+  margin-top: 45px;
+}
+
+.heading-2 {
+  color: #fefefe;
+}
+
+.paragraph-2 {
+  color: #969fad;
+  text-align: center;
+  max-width: 340px;
+  height: 72px;
+}
+
+.text-block {
+  color: #fc7614;
+  margin-top: 36px;
+}
+
+.flex-block-2 {
+  justify-content: center;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container {
+    max-width: 302px;
+    margin-top: -131px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .flex-block {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .button-2 {
+    letter-spacing: 1.867px;
+    padding-left: 79px;
+    padding-right: 107px;
+    font-size: 14px;
+  }
+
+  .section-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
