@@ -1,6 +1,7 @@
 :root {
   --white: white;
   --black: black;
+  --color: #969fad;
 }
 
 .w-layout-blockcontainer {
@@ -153,7 +154,7 @@
   border-radius: 22.5px;
 }
 
-.button-2 {
+#submit-button {
   color: #131518;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -165,7 +166,7 @@
   line-height: 24px;
 }
 
-.button-2:hover {
+#submit-button:hover {
   background-color: #fff;
 }
 
@@ -207,6 +208,7 @@
 .text-block {
   color: #fc7614;
   margin-top: 36px;
+  margin-bottom: -8px;
 }
 
 .flex-block-2 {
@@ -214,6 +216,19 @@
   align-items: center;
   padding-left: 32px;
   padding-right: 40px;
+}
+
+.circle {
+  color: #fff;
+  background-color: #262e38;
+  border-radius: 100px;
+  max-width: 51px;
+  height: 51px;
+  padding: 15px 27px 27px 23px;
+}
+
+.circle:hover {
+  background-color: #fc7614;
 }
 
 @media screen and (max-width: 479px) {
@@ -253,5 +268,3 @@
     padding-right: 10px;
   }
 }
-
-
